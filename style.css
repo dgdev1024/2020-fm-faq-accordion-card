@@ -158,7 +158,7 @@ html {
 }
 
 .faq__radio:checked ~ .faq__answer {
-  max-height: 48px;
+  max-height: 56px;
 }
 
 @media (min-width: 860px) {
