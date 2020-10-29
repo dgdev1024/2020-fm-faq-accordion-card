@@ -97,13 +97,17 @@ html {
   color: var(--color-very-dark-grayish-blue);
   font-size: 1.25rem;
   font-weight: var(--font-weight-normal);
-  transition-property: font-weight;
+  transition-property: font-weight, color;
   transition-duration: 0.3s;
 }
 
 .faq__radio:checked ~ .faq__question {
   color: black;
   font-weight: var(--font-weight-bold);
+}
+
+.faq__radio:not(:checked) ~ .faq__question:hover {
+  color: var(--color-soft-red);
 }
 
 .faq__arrow {
